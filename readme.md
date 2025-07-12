@@ -113,3 +113,11 @@ In this talk, we’ll dive into how Angular traditionally used `zone.js` to auto
 - Live signal-based counter vs global CD behavior
 
 ---
+
+## 📦 Assets
+- [Slides Link](https://docs.google.com/presentation/d/1YB62ORxWhcDPdZIlfLZKuQzJjwatugcYGuEeDbZBDzI/edit?usp=sharing)
+
+## Useful Links
+- [The Latest in Angular Change Detection – All You Need to Know](https://angular.love/the-latest-in-angular-change-detection-zoneless-signals)
+- [Change Detection Big Picture – Overview](https://angular.love/change-detection-big-picture-overview)
+- [A change detection, zone.js, zoneless, local change detection, and signals story](https://justangular.com/blog/a-change-detection-zone-js-zoneless-local-change-detection-and-signals-story)
