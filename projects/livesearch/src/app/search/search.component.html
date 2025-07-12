@@ -1,0 +1,11 @@
+<main class="search-container">
+  <form>
+    <input placeholder="Search.." [(ngModel)]="search" name="search" (ngModelChange)="updateList()">
+  </form>
+
+  <article class="countries-list">
+    <div class="country" *ngFor="let country of countries">
+      {{country?.name}}
+    </div>
+  </article>
+</main>

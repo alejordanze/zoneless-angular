@@ -1,0 +1,12 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #dedede;
+  padding: 10px 20px;
+  height: 100%;
+  align-items: center;
+
+  :last-child {
+    justify-self: end;
+  }
+}

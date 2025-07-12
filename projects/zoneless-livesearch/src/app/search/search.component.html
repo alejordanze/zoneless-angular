@@ -1,0 +1,16 @@
+<main class="search-container">
+  <form>
+    <input
+      placeholder="Search.."
+      [value]="search()"
+      (input)="onInput($event)"
+      name="search"
+    >
+  </form>
+
+  <article class="countries-list">
+    <div class="country" *ngFor="let country of countries()">
+      {{country?.name}}
+    </div>
+  </article>
+</main>

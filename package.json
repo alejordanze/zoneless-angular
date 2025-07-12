@@ -4,17 +4,12 @@
   "description": "",
   "main": "index.js",
   "workspaces": [
-    "projects/*"
+    "projects/*",
+    "packages/*"
   ],
-  "packages": {
-    "zoneless-counter": "zoneless-counter/*",
-    "counter": "counter/*",
-    "zoneless-livesearch": "zoneless-livesearch/*",
-    "livesearch": "livesearch/*"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:all": "concurrently \"pnpm --filter counter start\" \"pnpm --filter zoneless-counter start\" \"pnpm --filter livesearch start\" \"pnpm --filter zoneless-livesearch start\""
+    "start:all": "concurrently \"pnpm --filter counter start\" \"pnpm --filter zoneless-counter start\" \"pnpm --filter livesearch start\" \"pnpm --filter zoneless-livesearch start\" \"pnpm --filter cd-demo-zoneless start\" \"pnpm --filter cd-demo start\""
   },
   "keywords": [],
   "author": "",

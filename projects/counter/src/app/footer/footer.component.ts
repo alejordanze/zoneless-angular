@@ -10,27 +10,8 @@ import { FlashDirective } from '../shared/directives/flash.directive';
 })
 export class FooterComponent {
   public version = VERSION;
-  private el = inject(ElementRef)
-  private renderer = inject(Renderer2)
 
   logComponent() {
     console.log('Running check in footer');
-    // this.bgColor = 'touched';
-
-    // setTimeout(() => {
-    //   this.bgColor = 'default';
-    //   this.cdr.markForCheck();
-    // }, 100);
-
-
-    // const nativeEl = this.el.nativeElement as HTMLElement;
-    // // nativeEl.style.backgroundColor = '#ffd54f'; // yellow
-    // this.renderer.removeClass(nativeEl, 'flash-cd');
-
-    // // Force reflow to reset the animation
-    // void nativeEl.offsetWidth;
-
-    // // Re-add the animation class
-    // this.renderer.addClass(nativeEl, 'flash-cd');
   }
 }
