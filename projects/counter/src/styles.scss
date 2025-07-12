@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Flash animation */
+@keyframes flash {
+  from {
+    background: linear-gradient(45deg, #ee0d10, #d743f8, #8924fe);
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+.flash-cd {
+  animation: flash 0.3s ease-out;
+}
