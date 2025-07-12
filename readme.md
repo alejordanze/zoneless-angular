@@ -11,18 +11,21 @@ This is a **PNPM monorepo** containing 6 small Angular projects to demonstrate c
 ### 🚀 Getting Started
 
 1. Install dependencies:
-   ```bash
-   pnpm install
+  ```bash
+  pnpm install
+  ```
 
 2. Run all demo projects in parallel:
-   ```bash
-   pnpm start:all
+  ```bash
+  pnpm start:all
+  ```
 
 This will launch all 6 projects so you can explore and compare how each behaves in both traditional and zoneless Angular setups.
 
 Make sure you have PNPM installed globally. If not:
   ```bash
   npm install -g pnpm
+  ```
 
 # 🔍 Zoneless Angular – Talk & Demo Overview
 
