@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CounterComponent } from './counter/counter.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent, FooterComponent } from '@zoneless/shared';
 
 @Component({
   selector: 'app-root',

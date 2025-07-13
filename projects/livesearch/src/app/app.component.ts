@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from "./footer/footer.component";
 import { SearchComponent } from "./search/search.component";
-import { HeaderComponent } from './header/header.component';
-
+import { FooterComponent, HeaderComponent } from '@zoneless/shared';
 @Component({
   selector: 'app-root',
-  imports: [FooterComponent, SearchComponent, HeaderComponent],
+  imports: [SearchComponent, HeaderComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

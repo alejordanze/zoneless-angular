@@ -31,7 +31,7 @@ Make sure you have PNPM installed globally. If not:
 
 > A 30-minute technical walkthrough exploring how Angular handles change detection with and without `zone.js`, and why zoneless Angular is the future.
 
----
+- [Slides Link](https://docs.google.com/presentation/d/1YB62ORxWhcDPdZIlfLZKuQzJjwatugcYGuEeDbZBDzI/edit?usp=sharing)
 
 ## 🎯 Overview
 
@@ -113,9 +113,6 @@ In this talk, we’ll dive into how Angular traditionally used `zone.js` to auto
 - Live signal-based counter vs global CD behavior
 
 ---
-
-## 📦 Assets
-- [Slides Link](https://docs.google.com/presentation/d/1YB62ORxWhcDPdZIlfLZKuQzJjwatugcYGuEeDbZBDzI/edit?usp=sharing)
 
 ## Useful Links
 - [The Latest in Angular Change Detection – All You Need to Know](https://angular.love/the-latest-in-angular-change-detection-zoneless-signals)
