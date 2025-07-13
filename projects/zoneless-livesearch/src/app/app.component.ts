@@ -1,5 +1,4 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './search/search.component';
 import { ZonelessHeaderComponent, ZonelessFooterComponent} from '@zoneless/shared'
 
